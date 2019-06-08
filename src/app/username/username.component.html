@@ -1,3 +1,3 @@
-<input type="text" [(ngModel)] = "userName">
+<input type="text" placeholder="UserName" [(ngModel)] = "userName">
 <p>{{userName}}</p>
-<button [disabled] = "username ==''" (click) = "onClick()">Working</button>
+<button [disabled] = "userName == '' " (click) = "onClick()">Working</button>
