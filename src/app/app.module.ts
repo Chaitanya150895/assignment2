@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { UsernameComponent } from './username/username.component';
 import { PasswordComponent } from './password/password.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsernameComponent,
-    PasswordComponent
+    PasswordComponent,
+    CheckboxComponent
   ],
   imports: [
   
