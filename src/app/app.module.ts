@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UsernameComponent } from './username/username.component';
+import { PasswordComponent } from './password/password.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsernameComponent
+    UsernameComponent,
+    PasswordComponent
   ],
   imports: [
   

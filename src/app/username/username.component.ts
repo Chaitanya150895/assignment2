@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./username.component.css']
 })
 export class UsernameComponent implements OnInit {
-userName: string = "Enter Your Username Here";
+userName: string = " ";
 
 onClick()
 {
